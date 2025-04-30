@@ -1,4 +1,6 @@
-import calendar, locale
+import sys
 
-
-print(*[calendar.isleap(int(input())) for i in range(int(input()))])
+temp = sys.stdin.read().split('\n')
+# print(temp)
+for t in temp:
+    print(t[::-1])
