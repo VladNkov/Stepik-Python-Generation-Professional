@@ -19,9 +19,9 @@ times_of_purchases = [datetime(2017, 10, 1, 12, 23, 25), datetime(2017, 10, 1, 1
 # count_pm = 0
 # for dt in times_of_purchases:
 #     if dt.strftime('%p') == 'AM':
-#         count_am += 1
+#         count_am += 1. Repetition tasks
 #     if dt.strftime('%p') == 'PM':
-#         count_pm +=1
+#         count_pm +=1. Repetition tasks
 #
 # if count_am > count_pm:
 #     print('До полудня')
