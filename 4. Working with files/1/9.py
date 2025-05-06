@@ -35,7 +35,7 @@ else:
 # Sample Input 1:
 # 1
 # 2
-# 3
+# 3.txt
 # 4
 # 5
 
@@ -45,7 +45,7 @@ else:
 # 8
 # 16
 
-# Sample Input 3:
+# Sample Input 3.txt:
 # 1
 # 9
 # 1
