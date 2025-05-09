@@ -12,7 +12,7 @@ for i in mail_list:
 domain_count = {
     domain: len(nick_name) for domain, nick_name in mail_dict.items()
 }
-sorted_domain = sorted(domain_count.items(), key=lambda x: (x[1], x[0]) )
+sorted_domain = sorted(domain_count.items(), key=lambda x: (x[1], x[0]))
 
 columns = ['domain', 'count']
 
