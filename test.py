@@ -1,6 +1,5 @@
-import sys
+a = {True: 'да',
+     1: 'нет',
+     1.0: 'возможно'}
 
-temp = sys.stdin.read().split('\n')
-# print(temp)
-for t in temp:
-    print(t[::-1])
+print(a)
