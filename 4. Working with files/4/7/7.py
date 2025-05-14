@@ -18,8 +18,7 @@ for d in data:
         new_data.append(d)
     elif d is None:
         continue
-for i in new_data:
-    print(i)
+
 
 with open('updated_data.json', 'w', encoding='utf-8') as file:
     json.dump(new_data, file, indent=4, ensure_ascii=False)
