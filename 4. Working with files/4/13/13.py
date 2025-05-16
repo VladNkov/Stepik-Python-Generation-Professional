@@ -19,4 +19,3 @@ with (open('pools.json', encoding='utf-8') as in_file):
     answer = max(filtered_data, key=lambda x: (x[1], x[2]))
 
 print(f'{answer[1]}x{answer[2]}\n{answer[0]}')
-# print(f'{answer[0]}')
