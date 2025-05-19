@@ -34,13 +34,13 @@ else:
 
 # Sample Input 1:
 # 1
-# 2
+# 2.txt
 # 3.txt
 # 4
 # 5
 
-# Sample Input 2:
-# 2
+# Sample Input 2.txt:
+# 2.txt
 # 4
 # 8
 # 16
