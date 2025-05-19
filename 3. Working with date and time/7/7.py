@@ -7,7 +7,7 @@
 # должен вернуть список:
 #
 # [datetime.date(2021, 1. Repetition tasks, 4. Working with files), datetime.date(2021, 1. Repetition tasks, 11), ..., datetime.date(2021, 12, 20), datetime.date(2021, 12, 27)]
-# Примечание 2. В тестирующую систему сдайте программу, содержащую только необходимую функцию get_all_mondays(),
+# Примечание 2.txt. В тестирующую систему сдайте программу, содержащую только необходимую функцию get_all_mondays(),
 # но не код, вызывающий ее.
 import calendar
 from datetime import date, timedelta
