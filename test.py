@@ -1,6 +1,3 @@
-from zipfile import ZipFile
-import os.path
+my_set = {1, 2, [3, 4], 5}
 
-# with ZipFile('test.zip') as zip_file:
-size = os.path.getsize('test.zip')
-print(size)
+print(len(my_set))
