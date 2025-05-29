@@ -1,3 +1,7 @@
-my_set = {1, 2, [3, 4], 5}
+from collections import namedtuple
 
-print(len(my_set))
+App = namedtuple('App', ['name', 'apptype', 'size'])
+
+app = App._make('Discord messenger 200'.split())
+
+print(app)
