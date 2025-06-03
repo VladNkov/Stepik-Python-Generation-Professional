@@ -1,7 +1,10 @@
-from collections import namedtuple
+from collections import defaultdict
 
-App = namedtuple('App', ['name', 'apptype', 'size'])
+data = defaultdict(int)
+data['key'].append(1)
+data['key'].append(2)
+data['key'].append(3)
 
-app = App._make('Discord messenger 200'.split())
+print(data['key'])
 
-print(app)
+

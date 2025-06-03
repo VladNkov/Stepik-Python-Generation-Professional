@@ -34,14 +34,14 @@ else:
 
 # Sample Input 1:
 # 1
-# 2.txt
+# 2. Data type set and dict.txt
 # 3.txt
-# 4
+# 4. Data type namedtuple
 # 5
 
-# Sample Input 2.txt:
-# 2.txt
-# 4
+# Sample Input 2. Data type set and dict.txt:
+# 2. Data type set and dict.txt
+# 4. Data type namedtuple
 # 8
 # 16
 
@@ -50,5 +50,5 @@ else:
 # 9
 # 1
 # 1
-# 4
+# 4. Data type namedtuple
 # 5

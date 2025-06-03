@@ -11,7 +11,7 @@
 # Формат выходных данных Программа должна вывести 7 чисел — количество тринадцатых чисел, которые приходятся на
 # понедельник, вторник, среду, четверг, пятницу, субботу и воскресенье в период с 01.01.0001 по 31.12.9999.
 # Числа должны быть расположены каждое на отдельной строке.
-# d = {0: 0, 1. Repetition tasks: 0, 2.txt: 0, 3.txt. Working with date and time: 0, 4. Working with files: 0, 5: 0, 6: 0}
+# d = {0: 0, 1. Repetition tasks: 0, 2. Data type set and dict.txt: 0, 3.txt. Working with date and time: 0, 4. Data type namedtuple. Working with files: 0, 5: 0, 6: 0}
 
 from datetime import date, timedelta
 
