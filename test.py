@@ -1,10 +1,10 @@
-from collections import defaultdict
+from collections import OrderedDict
 
-data = defaultdict(int)
-data['key'].append(1)
-data['key'].append(2)
-data['key'].append(3)
+grades = OrderedDict(Timur=100, Arthur=84, Anri=94, Dima=98)
+new_grades = OrderedDict()
 
-print(data['key'])
+for rule in (True, False, False, True):
+    name, grade = grades.popitem(last=rule)
+    new_grades[name] = grade
 
-
+print(*new_grades)
